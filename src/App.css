@@ -1,38 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.background {
+  background-image: url('https://static.wixstatic.com/media/0e5bdd_8f377927d33449b4a8bc79d1f2108eb8~mv2.png/v1/fill/w_980,h_624,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/0e5bdd_8f377927d33449b4a8bc79d1f2108eb8~mv2.png');
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-attachment: fixed;
+  
 }
