@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 
 const Navbar = () => {  return (
-    <div className="pt-3">
+    <div className="py-3 ">
    
      <div className=" bg-black flex  justify-between mt-4 h-24 ">
 <div className="mt-4 mx-32">
