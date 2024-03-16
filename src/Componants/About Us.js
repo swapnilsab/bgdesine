@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const AboutUs = () => {
 
     return (
@@ -15,7 +17,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="mt-12 ml-8">
-                <div className="bg-red-500 text-white text-center h-12">VISIT US</div>
+               <Link to="/contact"> <div className="bg-red-500 text-white text-center h-12">VISIT US</div> </Link>
                 <div>
                     <img src="https://static.wixstatic.com/media/3b1f25_c7e4627c95dd443cb90a9d59fadd9ef1.jpg/v1/fill/w_312,h_140,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3b1f25_c7e4627c95dd443cb90a9d59fadd9ef1.jpg"
                 />
@@ -23,7 +25,7 @@ const AboutUs = () => {
             </div>
             </div>
             <div className="mt-4">
-            <h1 className="text-center">VISION</h1>
+            <h1 className="text-center">VISION</h1> 
             <div className="flex justify-center">
             
                 <p>"Our Vision is to be a leader in providing innovative solution to all our technological needs. We endeavour to fulfill our</p>

@@ -10,6 +10,15 @@ import ContactUs from './Componants/Contact Us';
 import Services from './Componants/Services';
 import Home from './Componants/Home';
 import Footer from './Componants/Footer';
+import {Manufacturing} from './Componants/Manufacturing'
+
+import Dummy from './Componants/Dummy';
+import { Map } from './Componants/Map';
+import LarCriteria from './Componants/Lar';
+import Engineeringservices from './Componants/Engineeringservices';
+import Useeffecttest from './Componants/Useeffecttest';
+
+
 
 function App() {
   return (
@@ -26,7 +35,12 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/" element={<Home />} />
-
+        <Route path="/manufacturing" element={<Manufacturing/>} />
+        <Route path="/engineeringservices" element={<Engineeringservices/>} />
+        <Route path="/dummy" element={<Map/>} />
+        <Route path="/useeffecttest" element={<Useeffecttest dealInputId="1" />} />
+        {/* dealInputId="1" */}
+   <Route path="/lar" element={<LarCriteria/>} />
 
      </Routes>
      <Footer/>

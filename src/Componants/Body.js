@@ -1,4 +1,4 @@
-const Body = () => {
+const Body = ({name}) => {
     return (
         <div>
             <div className=" bg-red-700 flex  justify-center  text-white">
@@ -7,7 +7,7 @@ const Body = () => {
 
                     <h1>
 
-                        QUALITY
+                        QUALITY{name}
                     </h1>
 
                     <p>We prefer quality over quantity,  this is our "Quality Mantra". </p>
