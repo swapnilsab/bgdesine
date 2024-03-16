@@ -7,7 +7,7 @@ const Body = ({name}) => {
 
                     <h1>
 
-                        QUALITY{name}
+                       Swapnil QUALITY{name}
                     </h1>
 
                     <p>We prefer quality over quantity,  this is our "Quality Mantra". </p>
