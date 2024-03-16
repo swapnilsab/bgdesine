@@ -11,7 +11,6 @@ import Services from './Componants/Services';
 import Home from './Componants/Home';
 import Footer from './Componants/Footer';
 import {Manufacturing} from './Componants/Manufacturing'
-
 import Dummy from './Componants/Dummy';
 import { Map } from './Componants/Map';
 import LarCriteria from './Componants/Lar';
