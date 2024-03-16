@@ -106,7 +106,7 @@ const Home = () => {
             </div>
 
             <div className="flex justify-center">
-                <h1 className="text-white text-7xl ">Solutions</h1>
+                <h1 className="text-white text-7xl ">Solutions Limited</h1>
             </div>
 
             <div className="flex justify-center mt-8">
