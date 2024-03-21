@@ -93,7 +93,7 @@ const Home = () => {
             </div>
 
             <div className="flex justify-center">
-                <span className="text-white ">For Swapnil</span>
+                <span className="text-white ">For Suraj</span>
             </div>
 
             <div className="flex justify-center">
