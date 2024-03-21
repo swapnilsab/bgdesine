@@ -89,11 +89,11 @@ const Home = () => {
     return (
         <div>
             <div className="flex justify-center mt-28">
-                <span className="text-white">Welcome to BG Design Systems</span>
+                <span className="text-white">Welcome to BG Design Systems </span>
             </div>
 
             <div className="flex justify-center">
-                <span className="text-white ">For</span>
+                <span className="text-white ">For Swapnil</span>
             </div>
 
             <div className="flex justify-center">
